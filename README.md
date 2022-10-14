@@ -34,18 +34,30 @@ Lee Haeseong, dlwlstjr@gmail.com, Algorithm Design and Implementation
 #### 프로젝트를 실행하기 위해 아래와 같은 라이브러리들이 필요합니다. 
 1\) matplotlib
 ```
-python -m pip install -U pip
-python -m pip install -U matplotlib
+pip install matplotlib
 ```
 2\) numpy
 ```
-python -m pip install numpy
+pip install numpy
 ```
 3\) open3d
 ```
-python -m pip install open3d
+pip install open3d
 ```
 4\) alphashape
 ```
-python -m pip install alphashape
+pip install alphashape
+```
+
+#### Input : main.py 파일의 37번 line의 메서드에 .ply 확장자를 가진 point cloud 데이터를 입력합니다.
+```
+pc = o3d.io.read_point_cloud("_________.ply")
+```
+<br/>
+
+#### Output : mesh.obj라는 실내 공간 모델과 furniture.ply라는 분리된 가구 포인트 클라우드 데이터를 출력합니다.
+
+```
+o3d.io.write_point_cloud("furniture.ply", removed)
+o3d.io.write_triangle_mesh("mesh.obj",mesh, print_progress=True)
 ```
