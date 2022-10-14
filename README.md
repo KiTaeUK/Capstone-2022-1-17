@@ -50,10 +50,13 @@ pip install open3d
 pip install alphashape
 ```
 <br/>
+
 #### Input : main.py 파일의 37번 line의 메서드에 .ply 확장자를 가진 point cloud 데이터를 입력합니다.
+
 ```
 pc = o3d.io.read_point_cloud("_________.ply")
 ```
+
 <br/>
 
 #### Output : mesh.obj라는 실내 공간 모델과 furniture.ply라는 분리된 가구 포인트 클라우드 데이터를 출력합니다.
