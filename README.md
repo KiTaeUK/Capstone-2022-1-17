@@ -31,3 +31,21 @@ Lee Haeseong, dlwlstjr@gmail.com, Algorithm Design and Implementation
 ***
 ## 5. 설치 및 사용법
 
+#### 프로젝트를 실행하기 위해 아래와 같은 라이브러리들이 필요합니다. 
+1\) matplotlib
+```
+python -m pip install -U pip
+python -m pip install -U matplotlib
+```
+2\) numpy
+```
+python -m pip install numpy
+```
+3\) open3d
+```
+python -m pip install open3d
+```
+4\) alphashape
+```
+python -m pip install alphashape
+```
