@@ -1,5 +1,5 @@
 # Capstone-2022-1-17
-<br/>
+
 ### 1. 프로젝트 소개
 
 '포인트 클라우드를 이용한 3D 공간 생성/복원' 프로젝트입니다.<br/><br/>
@@ -21,8 +21,8 @@ Lee Haeseong, dlwlstjr@gmail.com, Algorithm Design and Implementation
 <br/><br/><br/>
 
 ### 3. 시스템 구성도
-
-
+![pipeline](https://user-images.githubusercontent.com/79833715/195857077-31bbe2da-45f3-46b3-9ac1-b18ac7e92ac5.png)
+<br/><br/><br/>
 ### 4. 소개 및 시연 영상
 
 
